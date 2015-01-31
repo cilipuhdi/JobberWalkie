@@ -1,2 +1,2 @@
 # JobberWalkie
-JobberWalkie site based in AngularJS
+JobberWalkie site based in AngularJS and Rails
