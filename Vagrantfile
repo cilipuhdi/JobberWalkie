@@ -12,8 +12,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.forward_agent = true
   config.vm.network :private_network, ip: "192.168.100.110"
 
-  config.vm.provision 'shell', path: 'provisioning/rvm.sh'
-
   config.vm.provider :virtualbox do |vb|
     vb.gui = false
     vb.customize ["modifyvm", :id, "--memory", "4096"]
